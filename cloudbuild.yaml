@@ -18,6 +18,7 @@ steps:
 
   # Docker push to Google Artifact Registry
   # args: ['push',  'us-central1-docker.pkg.dev/pub-demo-cb-ar/python-repo/my-app:${SHORT_SHA}']
+  #
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push',  'us-central1-docker.pkg.dev/gleaming-vision-397409/python-repo/my-app:${SHORT_SHA}']
 
